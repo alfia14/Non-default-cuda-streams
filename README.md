@@ -56,26 +56,8 @@ Profiler output confirmed substantial overlap between memory copies and kernel e
 ---
 
 ## Performance Notes
-- The optimum number of streams depends on GPU architecture and PCIe bandwidth.  
-- Using pinned (page-locked) host memory can further improve transfer speeds.  
+- The optimum number of streams depends on GPU architecture and PCIe bandwidth. 
 - The approach can be scaled for real-time encryption or packet-based data pipelines.  
-
----
-
-## Future Work
-- Use pinned host memory for faster DMA transfers.  
-- Integrate shared-memory tiling for higher kernel efficiency.  
-- Extend encryption logic to support AES-like block ciphers.  
-- Visualize stream concurrency and overlaps using NVIDIA Nsight Systems profiling.  
-
----
-
-## Author
-[Your Name]  
-University of Illinois Urbana-Champaign  
-Course: Parallel Programming / GPU Optimization  
-Instructor: [Instructor’s Name]  
-Reference Course: NVIDIA Deep Learning Institute (DLI) — *Fundamentals of Accelerated Computing with CUDA C/C++*
 
 ---
 
